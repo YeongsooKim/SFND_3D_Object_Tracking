@@ -257,8 +257,8 @@ Frame Number        | IMAGE
 * I created a loop in code to test all possible combinations of detectors and descriptors and saved the results.
   * detectors: `SHITOMASI`, `FAST`, `BRISK`, `ORB`, `AKAZE`
   * descriptors: `BRISK`, `BRIEF`, `ORB`, `FREAK`  
-  * Saved Results of All Combination: please check `FP_6_Performance_Evaluation_2.csv` file [CSV file](https://github.com/studian/SFND_P4_3D_Object_Tracking/FP_6_Performance_Evaluation_2.csv).
-* Analysis of All Combination: please check `FP_6_Performance_Evaluation_2_analysis.xlsx` file [Excel file](https://github.com/studian/SFND_P4_3D_Object_Tracking/FP_6_Performance_Evaluation_2_analysis.xlsx).
+  * Saved Results of All Combination: please check `FP_6_Performance_Evaluation_2.csv` file [CSV file](https://github.com/YeongsooKim/SFND_3D_Object_Tracking/blob/master/SFND_P4_3D_Object_Tracking/FP_6_Performance_Evaluation_2.csv).
+* Analysis of All Combination: please check `FP_6_Performance_Evaluation_2_analysis.xlsx` file [Excel file](https://github.com/YeongsooKim/SFND_3D_Object_Tracking/blob/master/SFND_P4_3D_Object_Tracking/FP_6_Performance_Evaluation_2_analysis.xlsx).
 * Certain detector/descriptor combinations, especially the `ORB` detectors, produced very unreliable camera TTC estimates.
 * The TOP3 detector / descriptor combinations as the best choice for our purpose of detecting keypoints on vehicles are: 
   * `SHITOMASI` / `FREAK`
