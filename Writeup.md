@@ -230,8 +230,7 @@ void computeTTCCamera(std::vector<cv::KeyPoint> &kptsPrev, std::vector<cv::KeyPo
 * I created a loop in code to test all possible combinations of detectors and descriptors and saved the results.
   * detectors: `SHITOMASI`, `FAST`, `BRISK`, `ORB`, `AKAZE`
   * descriptors: `BRISK`, `BRIEF`, `ORB`, `FREAK`  
-  * Saved Performance Results of All Combination: please check `FP_6_Performance_Evaluation_2.csv` file [CSV file]
-(https://github.com/YeongsooKim/SFND_3D_Object_Tracking/blob/master/FP_6_Performance_Evaluation_2.csv).
+  * Saved Performance Results of All Combination: please check `FP_6_Performance_Evaluation_2.csv` file [CSV file](https://github.com/YeongsooKim/SFND_3D_Object_Tracking/blob/master/FP_6_Performance_Evaluation_2.csv).
   * Saved Results Images of All Combination: please check `./SFND_P4_3D_Object_Tracking/resultsImages/` folder.
 * Lidar sensor based TTCs are almost corrected. 
 * In case of 14-18 frames, by the eye, the distance of the front vehicle decreased, but the TTC increased.
